@@ -1,0 +1,22 @@
+
+
+### - Teste de Cadastro
+POST http://localhost:3000/usuario
+Content-Type: application/json
+
+{
+    "nome": "Ana",
+    "idade": 15,
+    "altura": 1.78,
+    "peso": 55
+}
+
+### - Teste de Cadastro do usuário
+POST http://localhost:3000/usuario2
+Content-Type: application/json
+
+{
+    "nome": "Ana",
+    "email": "ana@gmail.com",
+    "senha": "abc"
+}
